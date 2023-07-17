@@ -1,0 +1,4 @@
+python server.py -nc 100 -cf 1 -E 1 -B 128  -mn Mnist_CNN  -ncomm 50 -iid 0 -lr 0.001 -vf 1 -g 1 -dp 0.5 -op SGD -poipro 0 -revprob 0 -threshold 0 -repoi fedavg
+python server.py -nc 100 -cf 1 -E 1 -B 128  -mn Mnist_CNN  -ncomm 50 -iid 0 -lr 0.01 -vf 1 -g 1 -dp 0.5 -op SGD -poipro 0 -revprob 0 -threshold 0 -repoi fedavg
+python server.py -nc 100 -cf 1 -E 1 -B 128  -mn Mnist_CNN  -ncomm 50 -iid 1 -lr 0.01 -vf 1 -g 1 -op SGD -repoi fedavg
+python server.py -nc 100 -cf 1 -E 1 -B 128  -mn mnist_2nn  -ncomm 50 -iid 1 -lr 0.01 -vf 1 -g 1 -op SGD -repoi fedavg
